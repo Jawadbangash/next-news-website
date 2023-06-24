@@ -13,11 +13,11 @@ const NewsList = () => {
 //   };
 
   useEffect(() => {
-
+			console.log(process.env.NEXT_PUBLIC_API_KEY, process, process.env)
 			//   async function fetchNews() {
 			// 	try {
 			// 	  const response = await axios.get(
-			// 		'https://newsapi.org/v2/everything?q=tesla&from=2023-05-22&sortBy=publishedAt&apiKey='
+			// 		'https://newsapi.org/v2/everything?q=tesla&from=2023-05-22&sortBy=publishedAt&apiKey=b7f111332ea241dd9d93a86228743d53'
 			// 		// {
 			// 		//   prompt: 'India and moodi',
 			// 		//   max_tokens: 50,
@@ -55,7 +55,7 @@ const NewsList = () => {
 	  try {
 		const response = await fetch(
 			
-		  'https://newsapi.org/v2/everything?q=tesla&from=2023-05-22&sortBy=publishedAt&apiKey=' + process.env.API_KEY,
+		  'https://newsapi.org/v2/everything?q=ukraine&from=2023-06-23&sortBy=publishedAt&apiKey=' + '',
 		//   {
 		// 	headers: {
 		// 	  'x-api-key': '', // Replace with your NewsCatcher API key
