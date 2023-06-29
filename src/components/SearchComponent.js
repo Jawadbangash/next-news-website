@@ -11,8 +11,8 @@ const SearchComponent = ({onSubmit}) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type='text' value=searchQuery onChange={(e) =>setSearchQuery(e.target.value)}/>
-            <input type='date' value=searchDate onChange={(e) => setDate(e.target.value)}/>
+            {/* <input type='text' value=searchQuery onChange={(e) =>setSearchQuery(e.target.value)}/> */}
+            {/* <input type='date' value=searchDate onChange={(e) => setDate(e.target.value)}/> */}
             <button type='submit'>Search</button>
         </form>
     )

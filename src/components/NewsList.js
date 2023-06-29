@@ -66,6 +66,7 @@ const NewsList = () => {
 
 		if (response.ok) {
 		  const data = await response.json();
+		  console.log(data.articles, "<<<<<data>>>>>" )
 		  setArticles(data.articles);
 		} else {
 		  console.log('Failed to fetch articles');

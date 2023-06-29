@@ -23,6 +23,9 @@ const NewsItem = ({ article }) => {
       <img className='image-div' src={article.urlToImage}/>
       <h2 className='news-item-title' onClick={handleGenerateArticle}>{article.title}</h2>
       <p className="news-item-description">{article.description}</p>
+      {/* <input className='news-src-button' type='button' value='Go to source' /> */}
+      {/* <iframe src={article.url}></iframe> */}
+      {/* <embed src='https://news.yahoo.com/switzerland-blocks-sale-leopard-1-113726011.html'/> */}
     </div>
   );
 };

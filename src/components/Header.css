@@ -1,0 +1,27 @@
+.header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .header.animated {
+    opacity: 1;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .header-subtitle {
+    font-size: 18px;
+    opacity: 0.8;
+  }
+  
