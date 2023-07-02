@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className={`header ${isAnimated ? 'animated' : ''}`}>
       <div className="header-content">
-        <h1 className="header-title">Your Global News!</h1>
+        <h1 className="header-title">YOUR GLOBAL NEWS</h1>
         {/* <p className="header-subtitle">Stay up-to-date with the latest news and headlines</p> */}
       </div>
     </header>

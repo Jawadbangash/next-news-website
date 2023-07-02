@@ -55,7 +55,7 @@ const NewsList = () => {
 	  try {
 		const response = await fetch(
 			
-		  'https://newsapi.org/v2/everything?q=ukraine&from=2023-06-23&sortBy=publishedAt&apiKey=' + '',
+		  'https://newsapi.org/v2/everything?q=ukraine&from=2023-06-23&sortBy=publishedAt&apiKey=' + 'b7f111332ea241dd9d93a86228743d53',
 		//   {
 		// 	headers: {
 		// 	  'x-api-key': '', // Replace with your NewsCatcher API key
