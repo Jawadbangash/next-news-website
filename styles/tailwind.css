@@ -146,17 +146,29 @@ footer {
 }
 
 .header-title {
-  font-size: 50px;
+  font-size: 300%;
   margin-bottom: 10px;
   /* font-family: 'Times New Roman', Times, serif; */
   font-family: Old Standard TT;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   webkit-font-smoothing: subpixel-antialiased;
-  /* text-decoration: underline; */
+  display:inline-block;
+    -webkit-transform:scale(1,2.5); /* Safari and Chrome */
+    -moz-transform:scale(1,2); /* Firefox */
+    -ms-transform:scale(1,2); /* IE 9 */
+    -o-transform:scale(1,2); /* Opera */
+    transform:scale(1.5,2.5);
+    text-decoration: underline;
 }
 
 .header-subtitle {
   font-size: 18px;
   opacity: 0.8;
+}
+
+#article-source {
+    font-style: italic;
+    color: light rgb(39, 39, 99);
+    background-color: #EEEEEE
 }

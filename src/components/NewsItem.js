@@ -3,7 +3,7 @@ import React from 'react';
 // import GenerateArticle from './GenerateComment'
 import { useState } from 'react';
 import { generateComment } from '../utils/bardAPI';
-
+import moment from 'moment';
 
 const NewsItem = ({ article }) => {
     // const handleGenerateArticle = (a) => {
@@ -22,6 +22,7 @@ const NewsItem = ({ article }) => {
     <div className='news-item'>
       <img className='image-div' src={article.urlToImage}/>
       <h2 className='news-item-title' onClick={handleGenerateArticle}>{article.title}</h2>
+      <span>{moment(article.publishedAt).format('MMMM Do YYYY, h:mm A')} </span><a id='article-source' href={article.url}>{article.source.name}</a> <></>
       <p className="news-item-description">{article.description}</p>
       {/* <input className='news-src-button' type='button' value='Go to source' /> */}
       {/* <iframe src={article.url}></iframe> */}
