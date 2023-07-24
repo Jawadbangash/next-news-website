@@ -6,7 +6,7 @@ module.exports = {
 		return [
 			{
 				source: '/api',
-				destination: 'https://newsapi.org/v2/everything?q=world&from=2023-06-23&sortBy=publishedAt&apiKey=b7f111332ea241dd9d93a86228743d53',
+				destination: 'https://newsapi.org/v2/everything?q=world&sortBy=publishedAt&apiKey=b7f111332ea241dd9d93a86228743d53',
 			},
 		]
 	},
