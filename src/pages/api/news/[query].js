@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     const { query } = req.query; // `query` now holds the dynamic value passed to /api/news/[query]
 
     const apiKey = process.env.NEWS_API_KEY; 
-    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&sortBy=publishedAt&apiKey=${apiKey}`;
+    const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&sortBy=publishedAt&apiKey=b7f111332ea241dd9d93a86228743d53`;
 
     try {
         const apiResponse = await fetch(url);
